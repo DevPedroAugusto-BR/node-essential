@@ -1,0 +1,73 @@
+// ...existing code...
+Base de Conhecimento — API simples (learning-json.js)
+
+1) Objetivo
+- Servir como exemplo mínimo de API HTTP em Node.js que responde JSON.
+- Endpoint principal: /teste — retorna { mensagem: 'Olá Mundo!' }.
+- Qualquer outra rota retorna { erro: '404 - Not found' }.
+
+2) Arquivos relevantes
+- package.json: define scripts (start, nodemon) e dependências (mysql).
+- learning-json.js: servidor HTTP puro (módulos http, fs, url).
+- node_modules/: dependências instaladas pelo npm (não versionar).
+
+3) Como executar
+- Instalar dependências: npm install
+- Executar com Node: npm run start  (usa script "start": node app.js) — ajustar se o arquivo principal for outro.
+- Executar com nodemon (recarrega automaticamente): npm run nodemon
+- Para instalar nodemon globalmente: npm install -g nodemon  (ou instalar como devDependency: npm install --save-dev nodemon)
+
+Observação: no projeto atual o script "start" aponta para app.js; para esse exemplo específico rode:
+- node learning-json.js
+ou ajuste package.json para "start": "node learning-json.js"
+
+4) Endpoints e comportamento
+- GET /teste
+  - Resposta: 200
+  - Content-Type: application/json; charset=utf-8
+  - Body: {"mensagem":"Olá Mundo!"}
+- Qualquer outro caminho
+  - Resposta: 200 (o código atual retorna JSON com erro, ideal alterar para 404)
+  - Body: {"erro":"404 - Not found"}
+
+Sugestão: alterar response.writeHead para devolver o status code correto:
+- response.writeHead(404, {'Content-Type': ...}) em rotas não encontradas.
+
+5) Testes manuais
+- curl:
+  - curl -i http://localhost:3003/teste
+  - curl -i http://localhost:3003/qualquer
+- Navegador: acessar http://localhost:3003/teste
+
+6) Dependências e notas
+- mysql: biblioteca instalada mas não utilizada no exemplo; usar para conexão com banco de dados MySQL quando necessário.
+- node_modules: contém dependências instaladas pelo npm; adicionar node_modules/ ao .gitignore.
+- -g: sinalizador para instalar pacotes globalmente (ex.: nodemon).
+- nodemon: ferramenta de desenvolvimento para reiniciar app automaticamente ao detectar mudanças.
+
+7) Sockets
+- Este projeto não usa sockets. Para comunicação em tempo real, usar socket.io ou ws:
+  - Ex.: npm install socket.io
+  - Integrar ao servidor HTTP ou migrar para framework (Express) se necessário.
+
+8) Boas práticas e melhorias recomendadas
+- Usar Express para roteamento e estrutura mais clara.
+- Separar lógica de rotas em módulos.
+- Usar variáveis de ambiente para porta (process.env.PORT).
+- Retornar status HTTP corretos (200, 404, 500).
+- Sanitizar e validar entradas.
+- Adicionar logging adequado (ex.: morgan) e testes unitários.
+- Documentar endpoints (README ou OpenAPI/Swagger).
+
+9) Observações técnicas
+- learning-json.js usa url.parse(request.url) para extrair path; considerar usar new URL(request.url, `http://${request.headers.host}`) em versões modernas.
+- Charset UTF-8 definido no Content-Type para evitar problemas com acentuação.
+
+10) Exemplo rápido de curl e resposta esperada
+- Executar:
+  - curl http://localhost:3003/teste
+- Resposta:
+  - {"mensagem":"Olá Mundo!"}
+
+Fim do documento.
+// ...existing code...

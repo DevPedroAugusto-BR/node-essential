@@ -1,0 +1,22 @@
+[
+  { "nome": "Chevrolet Camaro SS", "desc": "Esportivo americano com motor V8 e design agressivo." },
+  { "nome": "Ford Mustang GT", "desc": "Ícone dos muscle cars, une potência e estilo retrô." },
+  { "nome": "Porsche 911 Carrera", "desc": "Clássico esportivo alemão com desempenho de pista." },
+  { "nome": "Nissan GT-R", "desc": "Superesportivo japonês conhecido como 'Godzilla'." },
+  { "nome": "Toyota GR Supra", "desc": "Esportivo japonês com tração traseira e design marcante." },
+  { "nome": "BMW M4 Competition", "desc": "Coupé esportivo com tração traseira e motor biturbo." },
+  { "nome": "Audi R8 V10", "desc": "Superesportivo com motor central e tecnologia derivada da Lamborghini." },
+  { "nome": "Porsche Cayman GTS", "desc": "Coupé de motor central com excelente equilíbrio dinâmico." },
+  { "nome": "Chevrolet Corvette Stingray", "desc": "Esportivo americano com motor central e design futurista." },
+  { "nome": "Mercedes-AMG GT", "desc": "Coupé de alto desempenho com DNA de competição." },
+  { "nome": "Lamborghini Huracán EVO", "desc": "Superesportivo italiano com motor V10 e tração integral." },
+  { "nome": "Ferrari Roma", "desc": "Coupé italiano com elegância e desempenho refinado." },
+  { "nome": "BMW Z4 M40i", "desc": "Roadster esportivo com tração traseira e estilo clássico." },
+  { "nome": "Audi TT RS", "desc": "Coupé compacto com motor 2.5 turbo e tração quattro." },
+  { "nome": "Porsche Taycan", "desc": "Esportivo elétrico com desempenho e luxo." },
+  { "nome": "Lotus Emira", "desc": "Esportivo leve com foco em dirigibilidade e precisão." },
+  { "nome": "Alpine A110", "desc": "Esportivo francês leve e ágil, de tração traseira." },
+  { "nome": "Ford Focus RS", "desc": "Hatch esportivo com tração integral e alto desempenho." },
+  { "nome": "Volkswagen Golf GTI", "desc": "Hatch esportivo equilibrado e icônico no Brasil." },
+  { "nome": "Honda Civic Type R", "desc": "Hatch de alta performance com motor turbo e tração dianteira." }
+]

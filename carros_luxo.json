@@ -1,0 +1,22 @@
+[
+  { "nome": "Mercedes-Benz Classe S", "desc": "Sedã de luxo referência mundial em conforto e tecnologia." },
+  { "nome": "BMW Série 7", "desc": "Topo de linha da BMW, oferece sofisticação e performance." },
+  { "nome": "Audi A8", "desc": "Sedã executivo com tração quattro e acabamento impecável." },
+  { "nome": "Porsche Panamera", "desc": "Sedã esportivo de luxo com DNA de corrida e conforto premium." },
+  { "nome": "Jaguar XF", "desc": "Sedã britânico de luxo com estilo e motor refinado." },
+  { "nome": "Lexus LS 500h", "desc": "Sedã híbrido de luxo com foco em conforto e silêncio a bordo." },
+  { "nome": "Volvo S90", "desc": "Sedã escandinavo de luxo, focado em segurança e design minimalista." },
+  { "nome": "Range Rover Vogue", "desc": "SUV de luxo com interior requintado e desempenho off-road." },
+  { "nome": "BMW X7", "desc": "SUV de sete lugares da BMW com conforto de alto nível." },
+  { "nome": "Mercedes-Benz GLE Coupé", "desc": "SUV-cupê com design moderno e interior luxuoso." },
+  { "nome": "Audi Q8", "desc": "SUV de luxo com tração integral e design esportivo." },
+  { "nome": "Porsche Cayenne", "desc": "SUV de alto desempenho com acabamento premium." },
+  { "nome": "Tesla Model S", "desc": "Sedã elétrico de luxo com alta autonomia e tecnologia avançada." },
+  { "nome": "BMW i7", "desc": "Sedã elétrico de luxo com interior futurista e materiais nobres." },
+  { "nome": "Maserati Quattroporte", "desc": "Sedã italiano com motor potente e estilo exclusivo." },
+  { "nome": "Mercedes-Benz EQS", "desc": "Sedã elétrico topo de linha com foco em tecnologia e silêncio absoluto." },
+  { "nome": "Audi e-tron GT", "desc": "Gran Turismo elétrico com acabamento sofisticado." },
+  { "nome": "Jaguar I-Pace", "desc": "SUV elétrico de luxo com design arrojado e ótimo desempenho." },
+  { "nome": "Volvo XC90", "desc": "SUV premium de sete lugares com alto nível de segurança." },
+  { "nome": "Lexus RX 500h", "desc": "SUV híbrido de luxo com conforto e desempenho equilibrados." }
+]

@@ -1,0 +1,22 @@
+[
+  { "nome": "Chevrolet Opala SS", "desc": "Clássico nacional dos anos 70, com motor potente e estilo marcante." },
+  { "nome": "Volkswagen Fusca", "desc": "O carro mais popular do Brasil, símbolo de resistência e simplicidade." },
+  { "nome": "Ford Maverick GT", "desc": "Muscle car brasileiro com motor V8 e visual agressivo." },
+  { "nome": "Chevrolet Chevette", "desc": "Compacto da GM que marcou gerações pelo baixo custo e durabilidade." },
+  { "nome": "Fiat 147", "desc": "Primeiro carro fabricado pela Fiat no Brasil, símbolo dos anos 70." },
+  { "nome": "Volkswagen Brasília", "desc": "Hatch versátil e querido nos anos 70 e 80." },
+  { "nome": "Volkswagen Kombi", "desc": "Utilitário clássico usado em transporte de cargas e pessoas." },
+  { "nome": "Dodge Charger R/T", "desc": "Ícone dos anos 70, conhecido pelo motor potente e design robusto." },
+  { "nome": "Chevrolet Caravan", "desc": "Versão perua do Opala, com espaço e conforto." },
+  { "nome": "Ford Corcel II", "desc": "Sedã médio da Ford com ótimo acabamento e dirigibilidade." },
+  { "nome": "Renault Dauphine", "desc": "Pequeno sedã francês montado no Brasil na década de 60." },
+  { "nome": "Willys Itamaraty", "desc": "Sedã de luxo nacional dos anos 60 e 70, elegante e confortável." },
+  { "nome": "Simca Chambord", "desc": "Modelo francês montado no Brasil, símbolo de status nos anos 60." },
+  { "nome": "Chevrolet Veraneio", "desc": "SUV robusto usado por famílias e forças policiais brasileiras." },
+  { "nome": "Gurgel BR-800", "desc": "Carro nacional de fibra, símbolo da indústria automotiva independente." },
+  { "nome": "DKW Vemag", "desc": "Um dos primeiros automóveis de passeio fabricados no Brasil." },
+  { "nome": "Volkswagen SP2", "desc": "Esportivo nacional dos anos 70 com design inovador." },
+  { "nome": "Puma GTB", "desc": "Coupé esportivo nacional com motor Chevrolet e visual europeu." },
+  { "nome": "Chevrolet Monza SL/E", "desc": "Sedã médio muito popular nos anos 80, com conforto e desempenho." },
+  { "nome": "Fiat Uno Mille 1984", "desc": "Modelo icônico que se tornou referência de economia e praticidade." }
+]
